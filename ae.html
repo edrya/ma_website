@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi.</title>
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+
+            font-family: 'Roboto Mono', monospace;
+            font-size: 16px;
+            /*background-image: url('static/imgs/t.jpg');*/
+            border-bottom: #95404a solid 2px;;
+
+        }
+
+        .content {
+            padding-top: 8em;
+            margin: 0 auto;
+
+        }
+
+        .ma-content {
+
+            text-align: center;
+
+        }
+
+        .ma-pic {
+            width: 240px;
+            height: 232px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: rgba(255,255,255,0.2);
+            transition: 0.5s;
+            -webkit-transition-property: -webkit-transform;
+            -moz-transition-property: -moz-transform;
+            -ms-transition-property: -ms-transform;
+            -o-transition-property: -o-transform;
+            -transition-property: -transform;
+            -moz-transform: rotate(-4deg);
+            -ms-transform: rotate(-4deg);
+            -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+            /*opacity: 0.7;*/
+        }
+
+        .ma-content:hover img {
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+
+        }
+
+        #ma-name {
+
+            font-size: 2.0em;
+            text-transform: uppercase;
+        }
+
+        #ma-bio {
+            font-size: 1.4em;
+            text-transform: uppercase;
+        }
+        #links{
+            margin: 30px auto;
+            text-align: center;
+            width: 120px;
+            text-align: left;
+
+        }
+        a:hover {
+    text-decoration: none;
+}
+        .ma-link{
+    color: #f52633;
+    font-weight: 500;
+    transition: color .1s ease;
+    cursor: pointer;
+        }
+.ma-link:hover{
+    color: #95404a;
+    font-weight: 500;
+    transition: color .1s ease;
+    cursor: pointer;
+        }
+.ma-link .fa{
+
+    font-size: 12px;
+}
+
+    </style>
+</head>
+
+<body>
+<div class="row content">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 ma-content">
+        <img class="ma-pic" src="static/imgs/me.png">
+        <h1 id="ma-name">Amir Edry</h1>
+        <br>
+        <p id="ma-bio">Data scientist<br>Born in Israel, living in Brooklyn<br></p>
+        <div id="links">
+            <a class="ma-link common-Link-arrow" href="static/Amir_Edry_Data%20Analyst.pdf"> <i class="fa fa-file" aria-hidden="true"></i>  résumé</a><br>
+            <a class="ma-link" href="mailto:amiredry@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> email</a><br>
+            <a class="ma-link" href="https://www.linkedin.com/in/amir-edry"><i class="fa fa-linkedin" aria-hidden="true"></i> linkedin</a>
+        </div>
+    </div>
+
+    <div class="col-md-3"></div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
