@@ -44,8 +44,8 @@
         }
 
         .ma-pic {
-            width: 240px;
-            height: 232px;
+            width: 16em;
+
             padding: 10px;
             border: 1px solid #ccc;
             background-color: rgba(255,255,255,0.2);
@@ -78,11 +78,10 @@
 
         #ma-bio {
             font-size: 1.4em;
-            text-transform: uppercase;
+
         }
         #links{
             margin: 30px auto;
-            text-align: center;
             width: 120px;
             text-align: left;
 
@@ -106,7 +105,35 @@
 
     font-size: 12px;
 }
+        .content {
+            padding-top: 8em;
+            margin: 0 auto;
 
+        }
+        @media (max-width: 480px) {
+          .content {
+            padding-top: 4em;
+
+        }
+             .ma-content {
+
+            text-align: left;
+
+        }
+            .ma-content img {
+                width: 10em;
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+
+        }
+              #links{
+            text-align: left;
+                   margin: 30px 4px ;
+
+        }
+        }
     </style>
 </head>
 
@@ -117,7 +144,7 @@
         <img class="ma-pic" src="static/imgs/me.png">
         <h1 id="ma-name">Amir Edry</h1>
         <br>
-        <p id="ma-bio">Data scientist<br>Born in Israel, living in Brooklyn<br></p>
+        <p id="ma-bio">Data Scientist<br>Living in Brooklyn<br></p>
         <div id="links">
             <a class="ma-link common-Link-arrow" href="static/Amir_Edry_Data%20Analyst.pdf"> <i class="fa fa-file" aria-hidden="true"></i>  résumé</a><br>
             <a class="ma-link" href="mailto:amiredry@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> email</a><br>
