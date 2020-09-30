@@ -140,17 +140,35 @@
         .nav-link {
             display: inline-block;
             font-size: 16px;
-            padding-right: 2.5em;
-            padding-top: 33px;
-            padding-bottom: 0;
             color: #999;
             text-decoration: none;
             font-weight: 300;
-            padding-left: 50px;
+            padding: 24px 24px 0;
             letter-spacing: 1px;
         }
-        .nav-items .nav-link:hover {
+        .nav-link:hover {
             color: #000;
+        }
+        .nav-link:hover::before {
+            width: 100%;
+            opacity: 1;
+        }
+       .nav-link::before {
+            content: '';
+            transition-duration: 240ms;
+            height: 1px;
+            width: 0%;
+            background: #000;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            opacity: 0;
+            top: 28px;
+        }
+        ::before {
+        }
+        ::before {
         }
     </style>
 </head>
